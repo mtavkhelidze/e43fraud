@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
 
+# Data come from for x in $(seq 1 30); do echo $x; http "https://results.cec.gov.ge/assets/data/election_43/prop/districts/$x.json" > prop-$x.json; done
+# Change 'prop' to 'major' for majoritarian results.
+
 import json
 import re
 from functools import reduce
