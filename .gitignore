@@ -1,0 +1,85 @@
+# Environment
+#./src/env.ts
+#env.ts
+env.example.ts
+env.example.staging.ts
+
+# OSX
+#
+.DS_Store
+
+# Xcode
+#
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+.vscode/.react
+
+# Android/IntelliJ
+#
+build/
+.idea
+.gradle
+local.properties
+*.iml
+
+# node.js
+#
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# BUCK
+buck-out/
+\.buckd/
+*.keystore
+!debug.keystore
+
+# fastlane
+#
+# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
+# screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://docs.fastlane.tools/best-practices/source-control/
+
+*/fastlane/report.xml
+*/fastlane/Preview.html
+*/fastlane/screenshots
+*/fastlane/.env
+*/fastlane/upload.json
+
+# Bundle artifact
+*.jsbundle
+
+# CocoaPods
+/ios/Pods/
+
+# Builds
+ios/Maet.app.dSYM.zip
+*.dSYM.zip
+android/*.hprof
+old.*
+
+# Environment
+./src/env.ts
+ios/production_com.zipsoftware.maet.p12
+ios/production_com.zipsoftware.maet.pem
+ios/production_com.zipsoftware.maet.pkey
+ios/production_com.zipsoftware.maet.staging.p12
+ios/production_com.zipsoftware.maet.staging.pem
+ios/production_com.zipsoftware.maet.staging.pkey
+src/env.json
+sentry.properties
